@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,33 +12,121 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-.header__top{
+
+.header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header__nav {
     background: #322E41;
     padding: 15px 0;
 }
+
 .header__nav-list {
     display: flex;
     column-gap: 30px;
 }
+
 .header__nav-link {
     font-size: 16px;
     line-height: 19px;
     color: white;
     font-family: arial;
-    transition: color 400ms,background 400ms;
+    transition: color 400ms, background 400ms;
     padding: 26px 14px;
 }
+
 .header__nav-link:hover {
     color: #D47300;
     background: white;
 }
-.header__img{
+
+.header__img {
     width: 100%;
     height: 500px;
     object-fit: cover;
 }
+
+.footer__sides {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__right {
+    display: flex;   
+    gap: 70px;
+    
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 10px;
+}
+
+.footer {
+    background: #322E41;
+    padding-top: 37px;
+    padding-bottom: 57px;
+}
+
+.footer__input {
+    padding: 8px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 6px;
+}
+
+.footer__textarea {
+    resize: none;
+    padding: 8px 0 60px 8px;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 6px;
+}
+
+.footer__btn {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    background: #544294;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 0;
+    font-family: arial;
+}
+
+.footer__list-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    font-family: arial;
+    margin-bottom: 10px;
+    transition: color 600ms;
+}
+
+.footer__list-link:hover{
+    color: #D57300;
+}
+
+.footer__left-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__right-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
